@@ -103,7 +103,7 @@ Doing your own build:
 To do a build, clone the source tree with git.
 Then do this:
 
-make leapstergs_defconfig
+make lfXXXX_defconfig (where XXXX is the board version you are building i.e. lf1000, lf2000 or lf3000)
 make menuconfig (change whatever you want to change here - adding cores, etc.)
 make
 cp output/images/* ~/sshflash/ (equivalent for your system/location of SSHflash).
